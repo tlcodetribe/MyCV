@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylsheet" href="stylesheet.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <title>Curriculum Vitae</title>
+
+
+
+    <style>
+        .CV {
+            height: 100%;
+            width: 800px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            background-color: cyan;
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+
+        .pic {
+            display: flex;
+        }
+
+        .details {
+            display: flex;
+
+        }
+
+        .container {
+            display: flex
+        }
+
+        .skills {
+            width: 60%;
+            margin-right: 250px;
+            background-color: gray;
+
+        }
+
+        .java {
+            width: 80%;
+            background-color: green;
+        }
+
+        .html {
+            width: 85%;
+            background-color: green;
+        }
+
+        .css {
+            width: 95%;
+            background-color: green;
+        }
+
+        .sql {
+            width: 85%;
+            background-color: green;
+        }
+
+        .asp {
+            width: 92%;
+            background-color: green;
+        }
+
+        .About {
+            width: 1500px;
+            height: 100%;
+            top: 0;
+            position: fixed;
+            background-color: darkcyan;
+        }
+
+        .Person {
+            height: 100%;
+            margin-left: 75%;
+            top: 0;
+            width: 100%;
+            position: fixed;
+            background-color: lightseagreen;
+        }
+
+        .btn1 {
+            padding: 15px 25px;
+            font-size: 24px;
+            cursor: pointer;
+            outline: none;
+            border: none;
+            border-radius: 15px;
+            background-color: rgb(214, 211, 26);
+            margin-left: 180px;
+        }
+
+        .btn2 {
+            padding: 15px 25px;
+            font-size: 24px;
+            cursor: pointer;
+            outline: none;
+            border: none;
+            border-radius: 15px;
+            background-color: rgb(214, 211, 26);
+            margin-left: 180px;
+        }
+
+        .btn1:hover {
+            background-color: white
+        }
+
+        .btn1:active {
+            visibility: hidden;
+
+        }
+
+
+        .btn2:hover {
+            background-color: white
+        }
+
+        .btn2:active {
+            visibility: hidden;
+
+        }
+
+        .Me{
+            visibility: hidden;
+        }
+
+        .Footer {
+            display: flex;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 150px;
+            background-color: lightgray;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="CV">
+
+        <div id="heading">
+            <h1
+                style="text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size:100px; color:darkblue;">
+                Curriculum Vitae:
+            </h1>
+        </div>
+
+        <div id="pic">
+            <img src="images.png" style="margin-left: 40%;">
+        </div>
+
+
+
+        <marquee>
+            <h2
+                style="text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size:50px; color:darkblue;">
+                Thabiso Leeuw
+            </h2>
+
+
+            <p style=" text-decoration:underline; text-align: center; font-size:xx-large;">
+                Programmer
+            </p>
+        </marquee>
+
+        <br><br>
+
+        <h3
+            style="text-decoration: underline double; color: darkred;font-size:x-large; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+            DETAILS:
+        </h3>
+
+        <div class="details">
+            <div class="det">
+                <ul1 style="color:rgb(0, 36, 238); font-size: larger; text-decoration: underline;">
+                    <ol>Name:</ol>
+                    <ol>Surname: </ol>
+                    <ol>ID No.: </ol>
+                    <ol>Marital Status:</ol>
+                    <ol>Occupation:</ol>
+                    <ol>Ethnicity: </ol>
+                </ul1>
+            </div>
+
+            <div class="detA">
+                <ul1 style="font-size: larger;">
+                    <ol>Thabiso</ol>
+                    <ol>Leeuw</ol>
+                    <ol>8909175312085</ol>
+                    <ol> Single</ol>
+                    <ol>IT Programmer</ol>
+                    <ol>African</ol>
+                </ul1>
+            </div>
+
+            <div class="inf">
+                <ul1 style="color:rgb(0, 36, 238);font-size: larger; text-decoration: underline;">
+                    <ol>Address:</ol>
+                </ul1>
+            </div>
+
+            <div class="infA">
+                <ul style="font-size: larger;">
+                    <ol>71 Tyala Street</ol>
+                    <ol>Galeshewe</ol>
+                    <ol>Kimberley</ol>
+                    <ol> Northern Cape</ol>
+                    <ol>8345</ol>
+                </ul>
+            </div>
+
+
+
+        </div>
+
+        <h4
+            style="text-decoration: underline double; color: darkred;font-size:x-large; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+            SKILLS:
+        </h4>
+
+        <div class="container">
+            Java
+            <hr>
+
+            <div class="skills">
+                <div class="java">
+                    75%
+                </div>
+            </div>
+        </div>
+
+
+        <br>
+
+        <div class="container">
+            HTML
+            <hr>
+            <div class="skills">
+                <div class="html">
+                    80%
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="container">
+            CSS
+            <hr>
+            <div class="skills">
+                <div class="css">
+                    90%
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="container">
+            SQL
+            <hr>
+            <div class="skills">
+                <div class="sql">
+                    80%
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="container">
+            ASP.NET
+            <div class="skills">
+                <div class="asp">
+                    85%
+                </div>
+            </div>
+        </div>
+        <br><br><br><br>
+    </div>
+
+
+
+    <!--Section two-->
+    <div class="About">
+
+        <div class="aboutMe">
+            <div id="pic">
+                <h5 style="padding-left:850px;">
+                    <img src="ProfilePic.jpg" alt="No Data" srcset width="40%">
+                </h5>
+            </div>
+
+            <div id="abo">
+                <h5
+                    style="text-decoration: underline double; padding-left: 1050px; font-size:xx-large; color: darkred;">
+                    About
+                </h5>
+            </div>
+        </div>
+
+        <p style="font-size: 20px; padding-left: 850px;">
+            I am an IT Programming graduate...started my first year in 2008
+            <br>and finished in 2010. I attained his Diploma in Programming in 2011.
+        </p>
+
+    </div>
+
+    <!-- Section three! -->
+    <div class="Person">
+
+        <h6
+            style="padding-left: 180px; text-decoration: underline double; color: darkred;font-size:xx-large; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+            LIFESTYLE:
+        </h6>
+
+
+        <!--Calling function "showMe"-->
+        <button class="btn1" onclick="showMe()"> Am I </button>
+
+        <p id="Me"></p>
+
+        <!--Calling function "hideMe"-->
+        <button class="btn2" onclick="hideMe()"> Clear Text </button>
+
+        <script>
+
+            function showMe() 
+            {
+                document.getElementsById("Me").innerHTML = "My lifestyle can be compared to a King's";
+            }
+
+        </script>
+
+
+
+    </div>
+
+
+
+
+</body>
+
+</html>
